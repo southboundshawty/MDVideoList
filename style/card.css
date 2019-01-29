@@ -1,0 +1,196 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    
+    color: #212121;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+.display_wrapper {
+    padding: 8px;
+}
+
+.search-bar {
+    width: 100%;
+    height: 48px;
+
+    border-radius: 50px;
+
+    box-sizing: border-box;
+
+    padding: 0 16px 0 16px;
+
+    background-color: #eeeeee;
+
+    color: #1b1b1b;
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.search-bar::before {
+    display: flex;
+
+    align-self: center;
+
+    content: 'Введите фразу..';
+}
+
+.search-ico {
+    display: flex;
+
+    align-self: center;
+    justify-self: flex-end;
+}
+
+.reco_wrapper {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.reco__item {
+    width: 100%;
+    height: 180px;
+
+    display: flex;
+
+    flex-direction: row;
+
+    border: 1px solid #bdbdbd;
+    border-radius: 8px;
+
+    overflow: hidden;
+}
+
+.list {
+    display: flex;
+
+    flex-direction: column;
+
+    width: 100%;
+    height: min-content;
+}
+
+.list_item {
+    width: 100%;
+    min-height: 64px;
+
+    border: 1px solid #bdbdbd;
+    border-radius: 8px;
+
+    margin-bottom: 8px;
+
+    display: flex;
+    flex-direction: row;
+
+    overflow: hidden;
+}
+
+.list_pic {
+    height: 64px;
+    width: 64px;
+
+    display: flex;
+
+    background-color: #d50000;;
+}
+
+.list_text {
+    display: flex;
+
+    height: min-content;
+
+    padding-top: 13px;
+    padding-left: 8px;
+
+    justify-content: center;
+}
+
+.list_text::after {
+    content: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor?';
+
+    justify-self: center;
+}
+
+.list_btn {
+    height: 64px;
+    width: 64px;
+
+    display: flex;
+
+    border-left: 1px solid #bdbdbd;
+
+    justify-content: center;
+
+}
+
+.reco_left {
+    display: flex;
+
+    width: 45%;
+    height: 100%;
+
+    padding: 16px;
+
+    flex-direction: column;
+}
+
+.reco_text {
+    margin-bottom: 32px;
+}
+
+.reco_btn {
+    outline: none;
+
+    border: 2px solid #d50000;
+
+    background-color: transparent;
+
+    color: #d50000;
+
+    padding: 4px 4px;
+
+    font-weight: bold;
+
+    border-radius: 8px;
+}
+
+.reco_btn:active {
+    color: white;
+
+    background-color: #d50000;
+}
+
+.reco_right {
+    height: 100%;
+    width: 55%;
+
+    background-color: #d50000;
+}
